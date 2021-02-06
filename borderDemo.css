@@ -1,3 +1,4 @@
 #borderDemo {
+width:410px; margin:10px auto 20px; line-height:normal; text-align:left;
 border: 7px ridge #8017A4;
 }
