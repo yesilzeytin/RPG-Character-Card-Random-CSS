@@ -1,0 +1,133 @@
+/* FICHE */
+#FDUBL {
+width:410px; margin:10px auto 20px; line-height:normal; text-align:left;
+}
+.imgFDUBL {
+display:inline-block; vertical-align:top; margin-right:5px; margin-bottom:5px; 
+width:405px; min-height:135px; 
+}
+.imgFDUBL img{
+width:200px; height:200px;
+}
+.abtFDUBL {
+width:400px; text-align:center;
+}
+.abtFDUBL img{
+position:absolute; z-index:3; margin-left:125px; margin-top:-65px;
+width:100px; height:100px; border-radius:100px; border:5px solid rgba(0,0,0,0.3); 
+transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+#FDUBL:hover .abtFDUBL img{
+margin-top:105px; margin-left:140px; 
+height:75px; width:75px; border:3px solid rgba(0,0,0,0.3);
+}
+.abtFDUBL p{
+display:inline-block; margin:auto; 
+width:180px; height:0px; overflow:hidden;
+text-align:justify; font-family:Times New Roman; font-size:11px; 
+transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+#FDUBL:hover p{
+width:170px; height:115px; padding:5px; overflow:auto;
+}
+.npFDUBL {
+position:absolute; margin-top:-200px; 
+width:190px; height:165px; padding:35px 5px 0; 
+text-align:center; text-transform:uppercase; font-size:24px; font-family:Arial;
+opacity:0; transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+#FDUBL:hover  .npFDUBL{
+opacity:1;
+}
+.npFDUBL span{
+display:block; margin-top:5px; font-size:11px; opacity:0.9;
+}
+.decoFDUBL { 
+margin:auto;
+height:0; width:360px;
+background:white; border-bottom:0; opacity:0; 
+transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+#FDUBL:hover .decoFDUBL{
+height:15px; border-bottom:5px solid;
+opacity:1; transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+.adjFDUBL {
+position:absolute; margin-top:-200px; margin-left:200px; 
+width:200px; height:200px; overflow:auto;
+}
+.adjFDUBL span{
+display:block; margin:8px auto; width:87%; height:0; overflow:hidden; 
+font-size:11px; font-family:Times New Roman;
+transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+#FDUBL:hover .adjFDUBL span{
+height:auto; padding:5px;
+}
+.cdtFDUBL {
+position:absolute; z-index:3; margin-left:-12px; margin-top:25px;
+opacity:0; transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+#FDUBL:hover .cdtFDUBL {
+opacity:1;
+}
+
+
+/* LIENS */
+#DUBL {
+width:410px; margin:auto; line-height:normal;
+}
+.linkDUBL {
+display:inline-block; vertical-align:top; margin-right:5px; margin-bottom:5px; 
+width:200px; min-height:135px; 
+}
+.linkDUBL img{
+width:100px; height:100px;
+}
+.persoDUBL {
+width:200px;
+}
+.persoDUBL img{
+position:absolute; z-index:3; margin-left:45px; margin-top:-65px;
+width:100px; height:100px; border-radius:100px; border:5px solid rgba(0,0,0,0.3); 
+transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+.linkDUBL:hover .persoDUBL img{
+margin-top:135px; margin-left:75px; 
+height:45px; width:45px; border:3px solid rgba(0,0,0,0.3);
+}
+.persoDUBL p{
+margin:auto; 
+width:175px; height:0px; overflow:hidden;
+text-align:justify; font-family:Times New Roman; font-size:11px; 
+transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+.linkDUBL:hover .persoDUBL p{
+height:135px; width:165px; padding:5px; overflow:auto;
+}
+.persoDUBL span{
+position:absolute; margin-top:-100px; padding-top:25px; 
+width:100px; height:75px; 
+text-align:center; text-transform:uppercase;
+opacity:0; transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+.linkDUBL:hover .persoDUBL span{
+opacity:1;
+}
+.persoDUBL div { 
+margin:auto;
+height:0px; width:175px;
+background-color:white; border-bottom:0; opacity:0; 
+transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+.linkDUBL:hover .persoDUBL div{
+height:15px; border-bottom:5px solid;
+opacity:1; transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+.cdtDUBL {
+position:absolute; margin-left:-25px; margin-top:15px;
+opacity:0; transition:all 0.75s linear; -webkit-transition:all 0.75s linear;
+}
+#DUBL:hover .cdtDUBL {
+opacity:1;
+}
