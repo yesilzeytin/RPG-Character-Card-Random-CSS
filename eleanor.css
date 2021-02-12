@@ -1,0 +1,16 @@
+.css-input {
+     padding: 5px;
+     font-size: 12px;
+     border-width: 5px;
+     border-color: #4c9452;
+     background-color: #33472f;
+     color: #f0f1d2;
+     border-style: groove;
+     border-radius: 0px;
+     box-shadow: 0px 0px 10px rgba(66,66,66,.73);
+     text-shadow: 0px 0px 5px rgba(66,66,66,.73);
+     width:550px
+}
+ .css-input:focus {
+     outline:none;
+}
